@@ -1,5 +1,14 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View,
+  KeyboardAvoidingView,
+  SafeAreaView,
+} from 'react-native';
+import {GiftedChat} from 'react-native-gifted-chat';
+import Fire from '../Fire';
 
 const ChatScreen = () => {
   return (
