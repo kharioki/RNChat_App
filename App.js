@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 
 function MyStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator mode="modal" headerMode="none">
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
@@ -26,13 +26,6 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const styles = StyleSheet.create({});
 
 export default App;

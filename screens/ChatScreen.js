@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 
 const ChatScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Chat</Text>
     </View>
   );
@@ -11,4 +11,11 @@ const ChatScreen = () => {
 
 export default ChatScreen;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
